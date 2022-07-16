@@ -1,0 +1,38 @@
+{
+  "name": "express-ipn",
+  "version": "1.0.4",
+  "description": "Simple Express middleware for creating an IPN listener.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhbertra/express-ipn.git"
+  },
+  "keywords": [
+    "ipn",
+    "paypal",
+    "express",
+    "middleware"
+  ],
+  "author": "Novo Ideation Inc. <jamie@novoideation.ca> (http://www.novoideation.ca)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhbertra/express-ipn/issues"
+  },
+  "homepage": "https://github.com/jhbertra/express-ipn#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mockery": "^1.7.0",
+    "sinon": "^1.17.5"
+  },
+  "dependencies": {
+    "express-ipn": "^1.0.3",
+    "https": "^1.0.0",
+    "querystring": "^0.2.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
