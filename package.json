@@ -4,7 +4,8 @@
   "description": "Simple Express middleware for creating an IPN listener.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
